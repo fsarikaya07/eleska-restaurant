@@ -9,6 +9,7 @@ const AppRouter = () => {
       <Navbar />
       <Header />
       
+      
     </BrowserRouter>
   );
 };
