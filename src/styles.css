@@ -1,0 +1,72 @@
+/* .app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+} */
+
+.orbit-container {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.orbit {
+  display: flex;
+
+  z-index: 5;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+}
+
+.circle-container {
+  position: relative;
+  width: 100rem;
+  height: 35rem;
+  list-style-type: none;
+
+  border-bottom: none;
+  border-radius: 50% 50% 0 0/100% 100% 0 0;
+  display: grid;
+  place-items: center;
+  bottom: 0px;
+  padding: 50px 50px 0px 50px;
+  background-position: unset;
+}
+
+
+.bgc-img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh - 35px);
+  background-image: url("./assets/headerPizza.jpg");
+}
+
+.header-title-font {
+  font-family: "Oswald", sans-serif;
+}
+.inputBoxShadow {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.word-spacing {
+  word-spacing: 0.3rem;
+}
+
+
+/* ***************** NAVBAR *****************   */
+.down-icon::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 10;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid;
+  border-right: 2px solid ;
+  transform: rotate(45deg);
+}
