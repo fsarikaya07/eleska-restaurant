@@ -46,6 +46,14 @@ const HomePart = () => {
           Sample Text. Click to select the text box. Click again or double click
           to start editing the text.
         </p>
+        <p className="text-gray-500">
+          Sample Text. Click to select the text box. Click again or double click
+          to start editing the text.
+        </p>
+        <p className="text-gray-500">
+          Sample Text. Click to select the text box. Click again or double click
+          to start editing the text.
+        </p>
       </div>
 
     </div>
