@@ -37,7 +37,6 @@
   background-position: unset;
 }
 
-
 .bgc-img {
   background-position: center center;
   background-repeat: no-repeat;
@@ -56,7 +55,6 @@
   word-spacing: 0.3rem;
 }
 
-
 /* ***************** NAVBAR *****************   */
 .down-icon::before {
   content: "";
@@ -67,6 +65,105 @@
   width: 8px;
   height: 8px;
   border-bottom: 2px solid;
-  border-right: 2px solid ;
+  border-right: 2px solid;
   transform: rotate(45deg);
 }
+
+/* ************ Stepper ********/
+.app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.orbit-container {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.orbit {
+  display: flex;
+  z-index: 5;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.circle-container {
+  position: relative;
+  width: 100rem;
+  height: 35rem;
+  list-style-type: none;
+  border-bottom: none;
+  border-radius: 50% 50% 0 0/100% 100% 0 0;
+  display: grid;
+  place-items: center;
+  bottom: 0px;
+  padding: 50px 50px 0px 50px;
+  background-position: unset;
+}
+
+/********* Multi Stepper ******/
+
+.details__wrapper {
+  max-width: 550px;
+  margin: 2rem auto 0.5rem auto;
+}
+.form__item {
+  margin-bottom: 1.6em;
+}
+label,
+input {
+  display: block;
+  width: 100%;
+}
+.d-flex {
+  display: flex !important;
+}
+
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+.input__error input {
+  border-color: #e12a32;
+}
+.error__feedback {
+  color: #e12a32;
+}
+
+.steps {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.ant-steps-item-icon {
+  background-color: #e12a32 !important;
+  color: white !important;
+  border: 1px solid white !important;
+}
+
+.ant-steps-item-icon svg {
+  color: white !important;
+}
+
+.ant-steps-item-icon span {
+  color: white !important;
+}
+
+.ant-steps-item-container > .ant-steps-item-tail::after {
+  background-color: red !important;
+}
+
+.ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title::after {
+  background-color: red !important;
+}
+
+/*? *********** Stepper ********/
