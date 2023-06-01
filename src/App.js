@@ -6,13 +6,14 @@ import Product2 from "./components/homePage/Product2";
 import Products from "./components/homePage/Products";
 import Steps from "./components/homePage/Steps";
 import Orbit from "./components/orbit/Orbit";
+import MultiStepForm from "./components/stepper/MultiStepForm";
 import Home from "./pages/Home";
 import AppRouter from "./router/AppRouter";
 
 function App() {
   return (
     <div className="app overflow-x-hidden">
-      <AppRouter/>
+      <AppRouter />
       <hr />
       <Steps />
       {/* <CarouselSlider/> */}
@@ -21,6 +22,7 @@ function App() {
       <Orbit radius={400} />
       {/* <HomePart/> */}
       <Home />
+      <MultiStepForm />
       <Footer />
     </div>
   );
