@@ -5,7 +5,7 @@ import { CiLocationOn } from "react-icons/ci";
 import "../../styles.css";
 
 const Navbar = () => {
-  const sideBarMenü = ["Menü", "Hakkında", "Giriş yap", "Üye Ol", "İletişim"];
+  const sideBarMenü = ["Menü", "Hakkında", "Giriş yap", "Üye Ol", "İletişim"]; 
   
   return (
     <>
