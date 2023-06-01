@@ -34,6 +34,7 @@ const HomePart = () => {
       <h1 className="text-2xl font-bold mb-2">Pide Mit Sucuk</h1>
       <p className="text-gray-500 mb-6">Sample text. Click to select the text box. Click again or double click to start editing the text.
         Hello world!!!
+        Deneme tekrar 
       </p>
     </div>
 </div>
