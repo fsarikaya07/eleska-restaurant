@@ -7,7 +7,9 @@ const AppRouter = () => {
   return (
     <BrowserRouter>
       <Navbar />
+    
       <Header />
+      
       
     </BrowserRouter>
   );
