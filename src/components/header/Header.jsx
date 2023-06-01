@@ -33,13 +33,14 @@ const Header = () => {
               <option value="Edge" />
               <option value="Edge" />
               <option value="Edge" />
-              <option value="Edge" />
+              <option value="Edge" /> 
             </datalist>
           </form>
         </div>
         <div className="flex gap-16 text-xl ">
           <button className="bg-black p-3 w-48  text-white tracking-widest ">
-            Kampanyalar
+            Kampanyalar 
+            
           </button>
           <button className="bg-black p-3 w-48  text-white  tracking-widest">
             Gel Al Servis
